@@ -1,0 +1,452 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1678888426686844, "dur":26554, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678888426713409, "dur":15570, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1678888426728994, "dur":13, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1678888426729009, "dur":385, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1678888426729429, "dur":497, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678888426729926, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678888429033946, "dur":196, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678888429034142, "dur":21, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678888429034163, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678888429034169, "dur":18, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678888429034187, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678888429034192, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678888429034203, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678888429034205, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678888429034212, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678888429034214, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678888429034221, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678888429034223, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678888429034230, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678888429034232, "dur":21, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678888429034253, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678888429034255, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678888429034268, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678888429034286, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678888429034295, "dur":66601, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1678888426730152, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678888426730152, "dur":1342, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678888426731494, "dur":20621, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1678888426752118, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678888426752121, "dur":537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1678888426752669, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1678888426752693, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678888426752697, "dur":84478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1678888426837201, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1678888426837241, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678888426837251, "dur":28524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1678888426865791, "dur":24944, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game.exe" }}
+,{ "pid":12345, "tid":1, "ts":1678888426890741, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678888426890746, "dur":1233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game.exe" }}
+,{ "pid":12345, "tid":1, "ts":1678888426892001, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1678888426892062, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678888426892231, "dur":125228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1678888427017479, "dur":68069, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678888427085555, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678888427085597, "dur":1318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678888427086930, "dur":89187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678888427176123, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678888427176131, "dur":2496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678888427178677, "dur":57473, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678888427236155, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678888427236163, "dur":710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678888427236887, "dur":199329, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678888427436223, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678888427436230, "dur":528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678888427436767, "dur":79128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678888427515899, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678888427515906, "dur":519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678888427516434, "dur":64539, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678888427580978, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678888427580985, "dur":632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678888427581631, "dur":50754, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678888427632390, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678888427632396, "dur":597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678888427633005, "dur":437150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678888428070160, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678888428070166, "dur":2565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678888428072752, "dur":108333, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678888428181091, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678888428181101, "dur":1181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678888428182297, "dur":341263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678888428523564, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678888428523570, "dur":1469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678888428525059, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1678888428525083, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678888428525088, "dur":1041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1678888428526144, "dur":507800, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678888426729975, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678888426729976, "dur":1494, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678888426731484, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1678888426731488, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678888426732611, "dur":1620, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1678888426734234, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1678888426734277, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678888426734392, "dur":4390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1678888426738784, "dur":13289, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1678888426752080, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678888426752116, "dur":559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1678888426752694, "dur":40185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1678888426792884, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678888426792894, "dur":44847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1678888426837754, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1678888426837780, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678888426837784, "dur":21261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1678888426859058, "dur":119198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1678888426978260, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678888426978265, "dur":34808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1678888427013095, "dur":64978, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678888427078080, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678888427078090, "dur":762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678888427078867, "dur":186246, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678888427265117, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678888427265123, "dur":726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678888427265867, "dur":134144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678888427400016, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678888427400022, "dur":18852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678888427418889, "dur":44727, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678888427463623, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678888427463630, "dur":706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678888427464345, "dur":26742, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678888427491091, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678888427491097, "dur":627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678888427491744, "dur":28592, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678888427520339, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678888427520344, "dur":477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678888427520832, "dur":36045, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678888427556881, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678888427556907, "dur":845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678888427557770, "dur":41682, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678888427599455, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678888427599462, "dur":810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678888427600286, "dur":70420, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678888427670713, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678888427670724, "dur":830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678888427671570, "dur":38186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678888427709760, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678888427709766, "dur":564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678888427710340, "dur":61986, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678888427772331, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678888427772336, "dur":620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678888427772967, "dur":392733, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678888428165705, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678888428165713, "dur":1159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678888428166886, "dur":43942, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678888428210834, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678888428210844, "dur":724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678888428211580, "dur":247242, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678888428458827, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678888428458834, "dur":2096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678888428460942, "dur":131345, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/clipper_library.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678888428592291, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678888428592296, "dur":71355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/clipper_library.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678888428663662, "dur":370279, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678888426730959, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678888426730959, "dur":535, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678888426731494, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1678888426731540, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678888426733252, "dur":22068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1678888426755330, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1678888426755353, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678888426755358, "dur":256193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1678888427011574, "dur":299716, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678888427311294, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678888427311300, "dur":595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678888427311920, "dur":190311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678888427502234, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678888427502240, "dur":568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678888427502820, "dur":96630, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678888427599456, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678888427599462, "dur":854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678888427600329, "dur":22332, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678888427622737, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678888427622746, "dur":2224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678888427624990, "dur":29186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678888427654185, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678888427654197, "dur":686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678888427654898, "dur":31957, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678888427686862, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678888427686870, "dur":715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678888427687599, "dur":119214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678888427806817, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678888427806826, "dur":592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678888427807428, "dur":419061, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678888428226493, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678888428226498, "dur":3141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678888428229667, "dur":243357, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678888428473029, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678888428473036, "dur":1550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678888428474605, "dur":36889, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678888428511502, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678888428511514, "dur":1236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678888428512772, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1678888428512798, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678888428512825, "dur":1661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1678888428514512, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1678888428514542, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678888428514549, "dur":1202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1678888428515781, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1678888428515946, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678888428515955, "dur":972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1678888428516948, "dur":4654, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1678888428521608, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678888428521616, "dur":1441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1678888428523077, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1678888428523098, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678888428523105, "dur":1036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1678888428524162, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1678888428524183, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678888428524189, "dur":916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1678888428525121, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1678888428525143, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678888428525149, "dur":860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1678888428526026, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1678888428526145, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678888428526151, "dur":725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1678888428526886, "dur":507078, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678888426730107, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678888426730108, "dur":1436, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678888426731544, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1678888426731585, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678888426735893, "dur":20512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1678888426756414, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1678888426756449, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678888426756612, "dur":81777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1678888426838404, "dur":177819, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678888427016233, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678888427016287, "dur":1587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678888427017893, "dur":67681, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678888427085602, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678888427085608, "dur":1312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678888427086933, "dur":47902, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678888427134845, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678888427134858, "dur":942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678888427135820, "dur":133161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678888427268985, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678888427269007, "dur":547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678888427269563, "dur":107078, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678888427376648, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678888427376657, "dur":918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678888427377596, "dur":56341, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678888427433941, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678888427433964, "dur":1398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678888427435374, "dur":28252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678888427463628, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678888427463632, "dur":701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678888427464344, "dur":35511, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678888427499876, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678888427499882, "dur":585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678888427500481, "dur":70451, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678888427570940, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678888427570948, "dur":1034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678888427571998, "dur":34744, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678888427606747, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678888427606753, "dur":508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678888427607269, "dur":84390, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678888427691664, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678888427691670, "dur":556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678888427692235, "dur":54708, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678888427746950, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678888427746959, "dur":791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678888427747765, "dur":232138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678888427979910, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678888427979922, "dur":852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678888427980788, "dur":111024, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678888428091819, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678888428091826, "dur":1012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678888428092855, "dur":96845, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678888428189710, "dur":14, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678888428189749, "dur":1119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678888428190886, "dur":368187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678888428559078, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678888428559085, "dur":106797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678888428665906, "dur":368039, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678888426730298, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678888426730299, "dur":1219, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678888426731519, "dur":62386, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1678888426793909, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678888426793915, "dur":43616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1678888426837546, "dur":8537, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1678888426846091, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678888426846107, "dur":698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1678888426846817, "dur":108009, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678888426954831, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678888426955021, "dur":64214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678888427019254, "dur":73378, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678888427092637, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678888427092643, "dur":524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678888427093177, "dur":25038, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678888427118220, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678888427118227, "dur":751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678888427118991, "dur":87527, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678888427206524, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678888427206533, "dur":764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678888427207310, "dur":169106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678888427376423, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678888427376432, "dur":675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678888427377122, "dur":96140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678888427473266, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678888427473272, "dur":584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678888427473869, "dur":44460, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678888427518333, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678888427518339, "dur":537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678888427518885, "dur":21887, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678888427540777, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678888427540785, "dur":1004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678888427541802, "dur":39736, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678888427581542, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678888427581548, "dur":656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678888427582215, "dur":63408, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678888427645627, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678888427645636, "dur":544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678888427646193, "dur":56683, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678888427702881, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678888427702889, "dur":759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678888427703664, "dur":46333, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678888427750003, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678888427750012, "dur":699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678888427750725, "dur":56398, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678888427807125, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678888427807129, "dur":490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678888427807627, "dur":222822, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678888428030453, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678888428030459, "dur":598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678888428031067, "dur":240988, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678888428272065, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678888428272079, "dur":2247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678888428274348, "dur":157735, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678888428432087, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678888428432093, "dur":799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678888428432914, "dur":280004, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678888428712922, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678888428712927, "dur":706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678888428713641, "dur":320309, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678888426730407, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678888426730407, "dur":1070, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678888426731484, "dur":46892, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1678888426778382, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678888426778534, "dur":59157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1678888426837706, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1678888426837738, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678888426837743, "dur":10816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1678888426848580, "dur":2167842, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678888429016440, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678888429016445, "dur":17457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678888429033915, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":6, "ts":1678888429033918, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678888426730694, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678888426730694, "dur":825, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678888426731519, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1678888426731573, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678888426735523, "dur":276044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1678888427011583, "dur":57873, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678888427069462, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678888427069506, "dur":704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678888427070225, "dur":41286, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678888427111519, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678888427111528, "dur":911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678888427112454, "dur":35044, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678888427147503, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678888427147511, "dur":708, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678888427148234, "dur":47397, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678888427195637, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678888427195645, "dur":777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678888427196438, "dur":212396, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678888427408838, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678888427408844, "dur":10283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678888427419139, "dur":28728, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678888427447872, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678888427447878, "dur":490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678888427448377, "dur":31846, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678888427480228, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678888427480234, "dur":507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678888427480750, "dur":76242, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678888427556995, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678888427556999, "dur":790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678888427557803, "dur":89890, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678888427647698, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678888427647704, "dur":795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678888427648509, "dur":30202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678888427678734, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678888427678741, "dur":550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678888427679301, "dur":34248, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678888427713553, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678888427713559, "dur":788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678888427714360, "dur":79742, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678888427794107, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678888427794112, "dur":1404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678888427795528, "dur":296432, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678888428091964, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678888428091970, "dur":1056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678888428093044, "dur":54762, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678888428147812, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678888428147820, "dur":727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678888428148560, "dur":165963, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678888428314529, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678888428314539, "dur":975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678888428315540, "dur":155065, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678888428470611, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678888428470647, "dur":1180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678888428471844, "dur":164571, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678888428636419, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678888428636425, "dur":27384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678888428663835, "dur":370107, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678888426730546, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678888426730546, "dur":932, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678888426731484, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1678888426731532, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678888426733365, "dur":33323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1678888426766704, "dur":14834, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1678888426781541, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678888426781563, "dur":56037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1678888426837615, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1678888426837642, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678888426837647, "dur":173956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1678888427011624, "dur":33871, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678888427045501, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678888427045724, "dur":659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678888427046398, "dur":55509, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678888427101912, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678888427101921, "dur":778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678888427102714, "dur":33172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678888427135889, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678888427135896, "dur":725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678888427136634, "dur":51906, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678888427188547, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678888427188555, "dur":1240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678888427189809, "dur":201223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678888427391038, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678888427391044, "dur":1453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678888427392508, "dur":35711, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678888427428224, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678888427428231, "dur":619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678888427428860, "dur":119952, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678888427548818, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678888427548826, "dur":743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678888427549578, "dur":85530, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678888427635114, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678888427635122, "dur":893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678888427636029, "dur":25639, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678888427661673, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678888427661681, "dur":751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678888427662451, "dur":51455, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678888427713912, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678888427713921, "dur":519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678888427714450, "dur":292186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678888428006641, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678888428006649, "dur":1135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678888428007796, "dur":214402, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678888428222204, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678888428222212, "dur":951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678888428223177, "dur":124498, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678888428347681, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678888428347690, "dur":777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678888428348480, "dur":58792, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678888428407278, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678888428407287, "dur":1097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678888428408398, "dur":367182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Obstacle game_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678888428775584, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678888428775590, "dur":3112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Obstacle game_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678888428778711, "dur":255232, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678888429232763, "dur":1412, "ph":"X", "name": "ProfilerWriteOutput" }
+,
